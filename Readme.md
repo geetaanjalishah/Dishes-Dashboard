@@ -1,6 +1,6 @@
 # Dishes Dashboard
 
-*Welcome to the Dishes Dashboard project! This project showcases a collection of dishes with the ability to search, view, and toggle their published status. It's built using the MERN stack, with React for the frontend, Express and Node.js for the backend, and MongoDB for the database, styled with Materialize CSS.*
+*Welcome to the Dishes Dashboard project! This project showcases a collection of dishes that can search, view, and toggle their published status. It's built using the MERN stack, with React for the frontend, Express and Node.js for the backend, and MongoDB for the database, styled with Materialize CSS.*
 
 ## Project Overview
 *This dashboard application displays a list of dishes fetched from an API and allows users to search for specific dishes, view their details, and toggle their published status. It features a responsive design, ensuring compatibility with both desktop and mobile views.*
@@ -13,7 +13,7 @@
 
 ## Installation
 *Download the Project:*
- * git clone <https://github.com/yourusername/dishes-dashboard>*
+ * git clone <https://github.com/yourusername/Dishes-Dashboard>*
 *cd dishes-dashboard.*
 
 ## Install Dependencies:
