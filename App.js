@@ -4,7 +4,7 @@ const cors = require('cors');
 const socketIo = require('socket.io');
 const mongoose = require('mongoose');
 const { MONGOURI } = require('./config/keys');
-const dishRoutes = require('./routes/dishes'); // Correctly importing the router
+const dishRoutes = require('./routes/dishes'); 
 
 const app = express();
 const server = http.createServer(app);
@@ -26,8 +26,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-app.use('/api/dishes', dishRoutes); // Using the router for /api/dishes
-
+app.use('/api/dishes', dishRoutes); 
 app.set('io', io);
 
 io.on('connection', (socket) => {
